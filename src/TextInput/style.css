@@ -1,0 +1,64 @@
+.inputHolder {
+    width: 5%;
+}
+/*.react-autocomplete-input {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 0px #fff;
+    bottom: auto;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    display: block;
+    font-size: 14px;
+    list-style: none;
+    padding: 1px;
+    position: absolute;
+    text-align: left;
+    z-index: 20000;
+ }*/
+ 
+ .react-autocomplete-input > li {
+   cursor: pointer;
+   width: 10%;
+   padding: 10px;
+   min-width: 50px;
+   margin-left: 43%;
+   margin-right: 43%;
+ }
+ 
+ .react-autocomplete-input > li.active {
+   background-color: #337ab7;
+   color: #fff;
+ }
+ input {
+    -webkit-appearance: none;
+    width: 10%;
+    border: 0;
+    font-family: inherit;
+    padding: 12px 0;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid #C8CCD4;
+    background: none;
+    border-radius: 0;
+    color: #223254;
+    transition: all .15s ease;
+
+    /*:hover & {
+      background: rgba(#223254,.03);
+    }
+    :not(:placeholder-shown) & {
+      + span
+        color #5A667F
+        transform: translateY(-26px) scale(.75)
+    }
+    :focus & {
+      background: none
+      outline: none
+      + span
+        color #0077FF
+        transform: translateY(-26px) scale(.75)
+        + .border
+            transform: scaleX(1)
+    }*/
+ }
